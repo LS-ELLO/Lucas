@@ -10,6 +10,12 @@ coded by linux shell
 
 <br><br>
 
+## Patch Note 📜
+- deactivate 명령어 오류 해결 
+- command line alias 설정법 추가 
+
+<br><br>
+
 ## Requirements
 * python 3.xx
 
