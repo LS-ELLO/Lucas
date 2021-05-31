@@ -12,7 +12,7 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 
 ## 목차
 * Mac버전 CookieCutter (autoenv)
-* Windows버전 CookieCutter (ps-autoenv)
+* [Windows버전 CookieCutter (ps-autoenv)](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#windows%EB%B2%84%EC%A0%84-cookiecutter-ps-autoenv)
 
 <br>
 
