@@ -162,7 +162,7 @@ PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
     ...
     ```
 
-### ✔How Use
+### ✔How to Use
 <b>Git Bash</b> 실행
 ```console
 bash> cd "where-this-repo-downloaded"
