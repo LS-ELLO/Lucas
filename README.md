@@ -170,7 +170,7 @@ The directory structure of your new project looks like this:
 │   │   └── models
 │   │   └── main.dart
 │
-└── .gitignore         ← 깃에 올라가지 말아야 할 폴더, src 폴더의 캐쉬 파일 등
+└── .gitignore        
 ```
 
 <br><br>
