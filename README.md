@@ -116,16 +116,34 @@ PS> Install-Module ps-autoenv
 PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
 ```
 
-### ✔Alias 설정하기
+### ✔Alias 설정하기 (git-bash)
+[참조](https://dev.to/mhjaafar/git-bash-on-windows-adding-a-permanent-alias-198g) <br>
+1. `C:/Program Files/Git/etc/profile.d/aliases.sh` 파일을 관리자 권한으로 Text Editor에 실행시킵니다. <br>
+2. 다음의 명령어를 추가합니다. <br>
+    `alias cookie='bash cookie_cutter_project_dir.sh의 상대경로'` <br>
+    ex) `alias cookie='bash D:/cookie-cutter-dx-team/windows/cookie_cutter_project_dir.sh'`
+    
+    ***(aliases.sh)***
+    ```sh
+    # Some good standards, which are not used if the user
+    # creates his/her own .bashrc/.bash_profile
 
+    # --show-control-chars: help showing Korean or accented characters
+    alias ls='ls -F --color=auto --show-control-chars'
+    alias ll='ls -l'
+    alias cookie='bash D:/cookie-cutter-dx-team/windows/cookie_cutter_project_dir.sh'
+
+    case "$TERM" in
+    ...
+    ```
 
 ### ✔How Use
 <b>Git Bash</b> 실행
 ```console
 bash> cd "where-this-repo-downloaded"
 bash> cd windows
-bash> bash cookie_cutter_project_dir.sh where-you-want your-project-name
-ex) bash cookie_cutter_project_dir.sh . 1bot
+bash> cookie where-you-want your-project-name
+ex) cookie . 1bot
 ```
 
 <b>Powershell</b> 실행
