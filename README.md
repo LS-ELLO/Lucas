@@ -3,7 +3,7 @@ _Last Updated: 2021-05-31_
 
 <br>
 
-coded by linux shell
+coded by linux shell <a href="https://github.com/LS-ELLO/cookie-cutter-dx-team" target="_blank"><img src="https://img.shields.io/badge/Linux-#FCC624?style=flat-square&logo=LinuxShell&logoColor=white"/></a>
 
 * autoenv (for mac)
 * ps-autoenv (for windows)
