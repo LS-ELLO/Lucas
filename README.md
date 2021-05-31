@@ -41,7 +41,7 @@ $ source ~/.zshrc
 # .env 파일
 echo "HELLO autoenv"
 {
-    source .dev-env/bin/activate
+    source .dev-venv/bin/activate
     echo "virtual env is successfully activated!"
 } ||
 {
