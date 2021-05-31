@@ -80,6 +80,15 @@ echo "BYEBYE"
 `.env.leave`파일 설정 후 해당 폴더에서 나가면<br>
 정상적으로 가상환경이 `deactivate` 되는 것을 확인할 수 있습니다.
 
+### ✔️Alias 설정하기
+```sh
+echo 'alias cookie="bash 각자 컴퓨터의 상대경로/cookie_cutter_project_dir.sh"' >> ~/.zshrc
+ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-data-science/mac/cookie_cutter_project_dir.sh"' >> ~/.zshrc
+```
+[맥 파일경로 확인법]https://yangfra.tistory.com/11)을 참고하여 mac폴더안의 cookie_cutter_project_dir.sh 파일의 경로를 zshrc에 넣어주시면 됩니다. <br>
+이렇게 하면 `cookie` 명령어 만으로 간단하게 스크립트를 실행시켜 보도록 하겠습니다. <br><b>
+위와 같이 설정하면 `cookie [프로젝트 생성할 경로] [프로젝트 이름]` 명령어로 프로젝트를 생성할 수 있게 됩니다. <br>
+
 ### ✔️How to Use
 
 ```zsh
@@ -88,8 +97,8 @@ $> git clone https://git.lsis.com/ympark4/cookiecutter-data-science.git
 $> cd cookiecutter-data-science
 $> cd mac
 
-$> bash cookie_cutter_project_dir.sh where-you-want your-project-name
-ex. $> bash cookie_cutter_project_dir.sh . 1bot
+$> cookie where-you-want your-project-name
+ex) $> cookie . test111
 ```
 
 <br><br>
@@ -111,7 +120,7 @@ PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
 bash> cd "where-this-repo-downloaded"
 bash> cd windows
 bash> bash cookie_cutter_project_dir.sh where-you-want your-project-name
-ex. bash> bash cookie_cutter_project_dir.sh . 1bot
+ex) bash cookie_cutter_project_dir.sh . 1bot
 ```
 
 <b>Powershell</b> 실행
