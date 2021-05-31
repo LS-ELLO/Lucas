@@ -96,7 +96,7 @@ ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-da
 ```zsh
 $> cd where-you-want
 $> git clone https://github.com/LS-ELLO/cookie-cutter-dx-team.git
-$> cd cookiecutter-data-science
+$> cd cookie-cutter-dx-team
 $> cd mac
 
 $> cookie where-you-want your-project-name
