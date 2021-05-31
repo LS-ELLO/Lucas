@@ -16,8 +16,10 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 <br>
 
 ## Patch Note 📜
+- App폴더구조 추가 완료 (21/5/31)
 - [issue] [deactivate 명령어 오류 해결 (21/5/31)](https://github.com/LS-ELLO/cookie-cutter-dx-team/issues/3)
 - [issue] [command line alias 설정법 추가 (21/5/31)](https://github.com/LS-ELLO/cookie-cutter-dx-team/issues/6)
+
 
 <br>
 
