@@ -11,7 +11,7 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=Windows&logoColor=white"/>
 
 ## 목차
-* Mac버전 CookieCutter (autoenv)
+* [Mac버전 CookieCutter (autoenv)](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#mac%EB%B2%84%EC%A0%84-cookiecutter-autoenv)
 * [Windows버전 CookieCutter (ps-autoenv)](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#windows%EB%B2%84%EC%A0%84-cookiecutter-ps-autoenv)
 
 <br>
