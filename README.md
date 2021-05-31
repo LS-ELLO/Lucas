@@ -1,5 +1,5 @@
 # cookie-cutter-dx-team
-_Last Updated: 2021-05-031_
+_Last Updated: 2021-05-31_
 
 <br>
 
