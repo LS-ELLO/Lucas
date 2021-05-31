@@ -48,7 +48,7 @@ cat > .env << EOF
 # .env 파일
 echo "HELLO autoenv"
 {
-    source .dev-venv/bin/activate
+    source .dev-venv/Scripts/activate
     echo "virtual env is successfully activated!"
 } ||
 {
@@ -284,8 +284,8 @@ echo "[msg] Top-level README.md created"
 
 # try ~ catch
 {
-    python3 -m venv .dev-venv
-    python3 -m venv .deploy-venv
+    python -m venv .dev-venv
+    python -m venv .deploy-venv
     echo "[msg] Virtual-env is successfully created"
 } ||
 {
