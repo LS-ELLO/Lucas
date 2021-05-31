@@ -28,7 +28,7 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 
 <br>
 
-## ***Team member***
+## Team member
 
 > Contributors/People
 
