@@ -11,8 +11,8 @@ coded by linux shell
 <br><br>
 
 ## Patch Note 📜
-- deactivate 명령어 오류 해결 
-- command line alias 설정법 추가 
+- deactivate 명령어 오류 해결 (21/5/31)
+- command line alias 설정법 추가 (21/5/31)
 
 <br><br>
 
