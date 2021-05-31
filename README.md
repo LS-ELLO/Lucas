@@ -1,9 +1,12 @@
 # cookie-cutter-dx-team
-_Last Updated: 2021-05-31_
+_Last Updated: 2021-05-31_ [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLS-ELLO%2Fcookie-cutter-dx-team&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <br>
 
-coded by linux shell <a href="https://github.com/LS-ELLO/cookie-cutter-dx-team" target="_blank"><img src="https://img.shields.io/badge/Linux-#FCC624?style=flat-square&logo=LinuxShell&logoColor=white"/></a>
+coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=white"/>
+<img src="https://img.shields.io/badge/Shell-FFD500?style=flat-square&logo=Shell&logoColor=white"/>
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=PowerShell&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
 
 * autoenv (for mac)
 * ps-autoenv (for windows)
