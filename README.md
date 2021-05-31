@@ -10,8 +10,9 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=macOS&logoColor=white"/>
 <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=Windows&logoColor=white"/>
 
-* autoenv (for mac)
-* ps-autoenv (for windows)
+## 목차
+* Mac버전 CookieCutter (autoenv)
+* Windows버전 CookieCutter (ps-autoenv)
 
 <br>
 
@@ -42,7 +43,7 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 
 <br><br>
 
-## ***autoenv (for mac)***
+## ***Mac버전 CookieCutter (autoenv)***
 
 >🚫<b>주의</b>️ <br>
 >`$> brew install autoenv` 로 다운로드 받아서 실행시키면 터미널 고장납니다. <br>
@@ -132,7 +133,7 @@ ex) $> cookie . test111
 
 <br><br>
 
-## ***ps-autoenv (for windows)***
+## ***Windows버전 CookieCutter (ps-autoenv)***
 >도움 주신 규본님 감사합니다. <br>
 [ps-autoenv](https://github.com/nickcox/ps-autoenv)를 사용합니다.
 
