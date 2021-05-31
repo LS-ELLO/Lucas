@@ -14,6 +14,20 @@ coded by linux shell
 - [issue] [deactivate 명령어 오류 해결 (21/5/31)](https://github.com/LS-ELLO/cookie-cutter-dx-team/issues/3)
 - [issue] [command line alias 설정법 추가 (21/5/31)](https://github.com/LS-ELLO/cookie-cutter-dx-team/issues/6)
 
+<br>
+
+## ***0. Team member***
+
+> Contributors/People
+
+| ympark | gbhwang | ??? |
+| :---: | :---: | :---: |
+| <img src="https://avatars.githubusercontent.com/u/44596598?v=4" width="50%"></img> | <img src="https://avatars.githubusercontent.com/u/23609204?v=4" width="50%"></img>  | <img src="https://avatars2.githubusercontent.com/u/44596599" width="50%"></img>  |
+| ***https://github.com/pym7857*** | ***https://github.com/gbhwang*** | ***https://github.com/*** |   
+
+- ***You can see team member and github profile***
+- ***You should probably find team member's lastest project***
+
 <br><br>
 
 ## Requirements
