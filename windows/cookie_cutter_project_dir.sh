@@ -32,15 +32,15 @@ touch requirements.txt setup.py tox.ini
 cat > .env << EOF
 # .env 파일
 echo "HELLO autoenv! "
-. dev-env/bin/activate
-echo "[virtual env is successfully activated!]
+.dev-venv/bin/activate
+echo "virtual env is successfully activated!
 EOF
 
 cat > .env.leave << EOF
 # .env.leave 파일
 echo "BYEBYE@ "
-. dev-env/bin/deactivate
-echo "[virtual env is successfully deactivated!]"
+deactivate
+echo "virtual env is successfully deactivated!"
 
 EOF
 
@@ -159,8 +159,8 @@ echo "[msg] Top-level README.md created"
 
 # try ~ catch
 {
-    python3 -m venv dev-env
-    python3 -m venv rel-env
+    python3 -m venv .dev-venv
+    python3 -m venv .deploy-venv
     echo "[msg] Virtual-env is successfully created"
 } ||
 {

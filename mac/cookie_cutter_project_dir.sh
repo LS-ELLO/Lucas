@@ -26,19 +26,29 @@ cd $1
 mkdir $2
 
 cd $2
-mkdir data doc models notebooks references reports src bin results application
-touch requirements.txt setup.py tox.ini
+mkdir data docs models notebooks references reports src App
+touch requirements.txt setup.py
+
+cat > LICENSE << EOF
+EOF
+
+cat > Makefile << EOF
+echo "Makefile with commands like `make data` or `make train`" > README.md
+EOF
 
 cat > .gitignore << EOF
-# .py, .ipynb만 업로드 되도록 아래에 작성
+# Node packages
+node_modules/
 
+# Mac OS-specific storage files
+.DS_Store
 EOF
 
 cat > .env << EOF
 # .env 파일
 echo "HELLO autoenv"
 {
-    source dev-env/bin/activate
+    source .dev-venv/bin/activate
     echo "virtual env is successfully activated!"
 } ||
 {
@@ -59,34 +69,47 @@ echo "BYEBYE"
 EOF
 
 cd ./data
-mkdir external interim processed raw
 echo "Data directory for storing fixed data sets" > README.md
+mkdir external interim processed raw
+cd ./external
+echo "Data from third party sources." > README.md
+cd ../interim
+echo "Intermediate data that has been transformed." > README.md
+cd ../processed
+echo "The final, canonical data sets for modeling." > README.md
+cd ../raw
+echo "The original, immutable data dump." > README.md
 touch .gitkeep
 
-cd ../doc
-echo "Doc directory with one subdirectory per manuscript" > README.md
+cd ../../docs
+echo "A default Sphinx project; see sphinx-doc.org for details" > README.md
 touch .gitkeep
 
 cd ../models
-echo "models" > README.md
+echo "Trained and serialized models, model predictions, or model summaries" > README.md
 touch .gitkeep
 
 cd ../notebooks
-echo "notebooks" > README.md
+echo "upyter notebooks. Naming convention is a number (for ordering) the creator's initials, and a short `-` delimited description, e.g.
+`1.0-jqp-initial-data-exploration`." > README.md
 touch .gitkeep
 
 cd ../references
-echo "references" > README.md
+echo "Data dictionaries, manuals, and all other explanatory materials" > README.md
 touch .gitkeep
 
 cd ../reports
+echo "Generated analysis as HTML, PDF, LaTeX, etc." > README.md
 mkdir figures
-echo "reports" > README.md
+cd ./figures
+echo "Generated graphics and figures to be used in reporting" > README.md
 touch .gitkeep
 
-cd ../src
-mkdir p0data p1dataread p2features p3models p4visualiztion utils
-cd ./p0data
+cd ../../src
+echo "Source code for use in this project." > README.md
+touch .gitkeep
+mkdir dataread features models visualiztion
+cd ./dataread
 cat > __init__.py << EOF
 # 내부 폴더 *.py 파일을 다른 폴더에서 사용 가능하도록 해줌 
 
@@ -123,7 +146,7 @@ current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfra
 parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
 EOF
-cd ../p1dataread
+cd ../features
 cat > __init__.py << EOF
 # 내부 폴더 *.py 파일을 다른 폴더에서 사용 가능하도록 해줌 
 
@@ -160,7 +183,7 @@ current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfra
 parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
 EOF
-cd ../p2features
+cd ../models
 cat > __init__.py << EOF
 # 내부 폴더 *.py 파일을 다른 폴더에서 사용 가능하도록 해줌 
 
@@ -197,7 +220,7 @@ current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfra
 parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
 EOF
-cd ../p3models
+cd ../visualiztion
 cat > __init__.py << EOF
 # 내부 폴더 *.py 파일을 다른 폴더에서 사용 가능하도록 해줌 
 
@@ -234,95 +257,22 @@ current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfra
 parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
 EOF
-cd ../p4visualiztion
-cat > __init__.py << EOF
-# 내부 폴더 *.py 파일을 다른 폴더에서 사용 가능하도록 해줌 
 
-import os, sys, inspect
-
-# https://gist.github.com/JungeAlexander/6ce0a5213f3af56d7369
-# 상위 폴더 연결하기 
-
-# 지금 폴더 & 부모 폴더 가져오기 
-current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-parent_dir = os.path.dirname(current_dir)
-sys.path.insert(0, parent_dir) 
-dirnames = os.listdir(parent_dir)   ## 부모 폴더내에 서브 폴더 가져 오기 
-dirnames= [i for i in dirnames if ("." not in i)]   ## 폴더 이름만 가져오기 (.py, .zip, .ds 형식 제외 )
-userpaths = [os.path.join(parent_dir, dirname) for dirname in dirnames] ## 서브 폴더의 완전한 주소 만들기 
-syspaths = sys.path ## 시스템 패스 정보 
-for userpath in userpaths:  ## User 패스 등록하기 
-    if userpath in syspaths:
-        pass
-    else:
-        sys.path.append(userpath)
-EOF
-cat > example.py << EOF
-# 실행 파일에 꼭 아래의 코드가 포함 되어 있어야함 ( 콘솔에서 다른 폴더 파일 불러 올 수 있음)
-
-import os
-import sys
-import inspect
-
-# # 프로젝트 폴더의 모든 폴더 sys.path 걸기
-# # https://gist.github.com/JungeAlexander/6ce0a5213f3af56d7369
-# # 부모 폴더 연결하기 --> 꼭필요 !!!!
-current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-parent_dir = os.path.dirname(current_dir)
-sys.path.insert(0, parent_dir)
-EOF
-cd ../utils
-cat > __init__.py << EOF
-# 내부 폴더 *.py 파일을 다른 폴더에서 사용 가능하도록 해줌 
-
-import os, sys, inspect
-
-# https://gist.github.com/JungeAlexander/6ce0a5213f3af56d7369
-# 상위 폴더 연결하기 
-
-# 지금 폴더 & 부모 폴더 가져오기 
-current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-parent_dir = os.path.dirname(current_dir)
-sys.path.insert(0, parent_dir) 
-dirnames = os.listdir(parent_dir)   ## 부모 폴더내에 서브 폴더 가져 오기 
-dirnames= [i for i in dirnames if ("." not in i)]   ## 폴더 이름만 가져오기 (.py, .zip, .ds 형식 제외 )
-userpaths = [os.path.join(parent_dir, dirname) for dirname in dirnames] ## 서브 폴더의 완전한 주소 만들기 
-syspaths = sys.path ## 시스템 패스 정보 
-for userpath in userpaths:  ## User 패스 등록하기 
-    if userpath in syspaths:
-        pass
-    else:
-        sys.path.append(userpath)
-EOF
-cat > example.py << EOF
-# 실행 파일에 꼭 아래의 코드가 포함 되어 있어야함 ( 콘솔에서 다른 폴더 파일 불러 올 수 있음)
-
-import os
-import sys
-import inspect
-
-# # 프로젝트 폴더의 모든 폴더 sys.path 걸기
-# # https://gist.github.com/JungeAlexander/6ce0a5213f3af56d7369
-# # 부모 폴더 연결하기 --> 꼭필요 !!!!
-current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-parent_dir = os.path.dirname(current_dir)
-sys.path.insert(0, parent_dir)
-EOF
-cd ..
-echo "src for source code" > README.md
+cd ../../App
+echo "App for mobile" > README.md
+touch .gitkeep
+mkdir android ios lib 
+cd ./android 
+touch .gitkeep
+cd ../ios 
+touch .gitkeep
+cd ../lib 
+touch main.py 
+mkdir models 
+cd ./models 
 touch .gitkeep
 
-cd ../bin
-echo "bin for compiled binaries or scripts" > README.md
-touch .gitkeep
-
-cd ../results
-echo "Results directory for tracking computational experiments peformed on data" > README.md
-touch .gitkeep
-
-echo "[msg] Folders created."
-
-cd ..
+cd ../../../
 
 # 메인 README 생성
 cat > README.md << EOF
@@ -385,9 +335,9 @@ echo "[msg] Top-level README.md created"
 
 # try ~ catch
 {
-    python3 -m venv .dev-env
-    python3 -m venv .rel-env
-    echo "[msg] Virtual-env is successfully created"
+    python3 -m venv .dev-venv
+    python3 -m venv .deploy-venv
+    echo "[msg] Virtual-envs are successfully created"
 } ||
 {
     echo "[msg] Cant' create virtual-env"
