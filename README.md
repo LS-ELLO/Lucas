@@ -131,63 +131,45 @@ The directory structure of your new project looks like this:
 
 ```
 ├── LICENSE
+├── Makefile
 ├── README.md          ← The top-level README for developers using this project.
-├── bin                ← bin.
 ├── data
 │   ├── external       ← Data from third party sources.
 │   ├── interim        ← Intermediate data that has been transformed.
 │   ├── processed      ← The final, canonical data sets for modeling.
 │   └── raw            ← The original, immutable data dump.
-│
-├── doc                ← documentation
-│
+├── docs               ← A default Sphinx project; see sphinx-doc.org for details
 ├── models             ← Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          ← Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
+├── notebooks          ← Jupyter notebooks. Naming convention is a number (for ordering), the creator's initials, and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`.
 ├── references         ← Data dictionaries, manuals, and all other explanatory materials.
-│
 ├── reports            ← Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        ← Generated graphics and figures to be used in reporting
-│
-├── results            ← results.
-│
-├── requirements.txt   ← The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
+├── requirements.txt   ← The requirements file for reproducing the analysis environment, e.g. generated with `pip freeze > requirements.txt`
 ├── setup.py           ← makes project pip installable (pip install -e .) so src can be imported
 ├── src                ← Source code for use in this project.
-│   ├── p0data         ← Scripts to download or generate data
+│   ├── dataread     ← Scripts to download or generate data
 │   │   └── __init__.py
 │   │   └── example.py
 │   │
-│   ├── p1dataread     ← Scripts to download or generate data
+│   ├── features     ← Scripts to download or generate data
 │   │   └── __init__.py
 │   │   └── example.py
 │   │
-│   ├── p2features     ← Scripts to download or generate data
+│   ├── models     ← Scripts to download or generate data
 │   │   └── __init__.py
 │   │   └── example.py
 │   │
-│   ├── p3models     ← Scripts to download or generate data
+│   ├── visualization    ← Scripts to download or generate data
 │   │   └── __init__.py
 │   │   └── example.py
-│   │
-│   ├── p4visualization    ← Scripts to download or generate data
-│   │   └── __init__.py
-│   │   └── example.py
-│   │
-│   └── utils        ← Scripts to create exploratory and results oriented visualizations
-│       └── __init__.py
-│       └── example.py
+├── App                ← Source code for App
+│   ├── android       
+│   ├── ios           
+│   ├── lib            
+│   │   └── models
+│   │   └── main.dart
 │
-└── tox.ini            ← tox file with settings for running tox; see tox.readthedocs.io
+└── .gitignore         ← 깃에 올라가지 말아야 할 폴더, src 폴더의 캐쉬 파일 등
 ```
 
 <br><br>
-
-## TODO
-* ~~Windows에 autoenv설정 (규본님 메시지 참조)~~
-* cookiecutter 파이썬 버전별로 가상화경 선택할 수 있는 기능 추가 (상욱님 지시사항)
