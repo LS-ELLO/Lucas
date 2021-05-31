@@ -16,7 +16,7 @@ coded by linux shell
 
 <br>
 
-## ***0. Team member***
+## ***Team member***
 
 > Contributors/People
 
