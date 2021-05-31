@@ -95,7 +95,7 @@ ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-da
 
 ```zsh
 $> cd where-you-want
-$> git clone https://git.lsis.com/ympark4/cookiecutter-data-science.git
+$> git clone https://github.com/LS-ELLO/cookie-cutter-dx-team.git
 $> cd cookiecutter-data-science
 $> cd mac
 
@@ -115,6 +115,9 @@ ex) $> cookie . test111
 PS> Install-Module ps-autoenv
 PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
 ```
+
+### ✔Alias 설정하기
+
 
 ### ✔How Use
 <b>Git Bash</b> 실행
