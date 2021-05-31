@@ -8,8 +8,6 @@ coded by linux shell
 * autoenv (for mac)
 * ps-autoenv (for windows)
 
-<br><br>
-
 ## Patch Note 📜
 - [deactivate 명령어 오류 해결 (21/5/31)](https://github.com/LS-ELLO/cookie-cutter-dx-team/issues/3)
 - [command line alias 설정법 추가 (21/5/31)](https://github.com/LS-ELLO/cookie-cutter-dx-team/issues/6)
