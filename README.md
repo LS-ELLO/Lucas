@@ -147,22 +147,23 @@ The directory structure of your new project looks like this:
 ├── requirements.txt   ← The requirements file for reproducing the analysis environment, e.g. generated with `pip freeze > requirements.txt`
 ├── setup.py           ← makes project pip installable (pip install -e .) so src can be imported
 ├── src                ← Source code for use in this project.
-│   ├── dataread     ← Scripts to download or generate data
+│   ├── __init__.py  
+│   ├── dataread      
 │   │   └── __init__.py
 │   │   └── example.py
 │   │
-│   ├── features     ← Scripts to download or generate data
+│   ├── features       
 │   │   └── __init__.py
 │   │   └── example.py
 │   │
-│   ├── models     ← Scripts to download or generate data
+│   ├── models     
 │   │   └── __init__.py
 │   │   └── example.py
 │   │
-│   ├── visualization    ← Scripts to download or generate data
+│   ├── visualization    
 │   │   └── __init__.py
 │   │   └── example.py
-├── App                ← Source code for App
+├── App               
 │   ├── android       
 │   ├── ios           
 │   ├── lib            
