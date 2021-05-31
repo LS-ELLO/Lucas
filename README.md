@@ -107,7 +107,7 @@ echo "BYEBYE"
 
 ### ✔️Alias 설정하기
 ```sh
-echo 'alias cookie="bash 각자 컴퓨터의 상대경로/cookie_cutter_project_dir.sh"' >> ~/.zshrc
+echo 'alias cookie="bash [각자 컴퓨터의 상대경로/cookie_cutter_project_dir.sh]"' >> ~/.zshrc
 ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-data-science/mac/cookie_cutter_project_dir.sh"' >> ~/.zshrc
 ```
 [맥 파일경로 확인법](https://yangfra.tistory.com/11)을 참고하여 <br>
@@ -124,7 +124,7 @@ $> git clone https://github.com/LS-ELLO/cookie-cutter-dx-team.git
 $> cd cookie-cutter-dx-team
 $> cd mac
 
-$> cookie where-you-want your-project-name
+$> cookie [where-you-want] [your-project-name]
 ex) $> cookie . test111
 ```
 
@@ -156,7 +156,7 @@ PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
     # --show-control-chars: help showing Korean or accented characters
     alias ls='ls -F --color=auto --show-control-chars'
     alias ll='ls -l'
-    alias cookie='bash D:/cookie-cutter-dx-team/windows/cookie_cutter_project_dir.sh'
+    alias cookie='bash [where-your-cookie_cutter_project_dir.sh]'
 
     case "$TERM" in
     ...
@@ -167,7 +167,7 @@ PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
 ```console
 bash> cd "where-this-repo-downloaded"
 bash> cd windows
-bash> cookie where-you-want your-project-name
+bash> cookie [where-you-want] [your-project-name]
 ex) cookie . 1bot
 ```
 
