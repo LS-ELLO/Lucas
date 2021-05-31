@@ -88,7 +88,7 @@ ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-da
 [맥 파일경로 확인법](https://yangfra.tistory.com/11)을 참고하여 <br>
 각자 mac폴더안의 cookie_cutter_project_dir.sh 파일의 경로를 확인하여 zshrc에 넣어주시면 됩니다. <br><br>
 
-이렇게 하면 `cookie` 명령어 만으로 간단하게 스크립트를 실행시켜 보도록 하겠습니다. <br>
+이렇게 하면 `cookie` 명령어 만으로 간단하게 스크립트를 실행시킬 수 있게 됩니다. <br>
 위와 같이 설정하면 `cookie [프로젝트 생성할 경로] [프로젝트 이름]` 명령어로 프로젝트를 생성할 수 있게 됩니다. <br>
 
 ### ✔️How to Use
