@@ -50,7 +50,7 @@ cat > .env.leave << EOF
 # .env.leave 파일
 echo "BYEBYE"
 {
-    source dev-env/bin/deactivate
+    deactivate
     echo "virtual env is successfully deactivated!"
 } ||
 {
