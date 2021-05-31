@@ -86,7 +86,7 @@ echo 'alias cookie="bash 각자 컴퓨터의 상대경로/cookie_cutter_project_
 ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-data-science/mac/cookie_cutter_project_dir.sh"' >> ~/.zshrc
 ```
 [맥 파일경로 확인법](https://yangfra.tistory.com/11)을 참고하여 <br>
-mac폴더안의 cookie_cutter_project_dir.sh 파일의 경로를 zshrc에 넣어주시면 됩니다. <br><br>
+각자 mac폴더안의 cookie_cutter_project_dir.sh 파일의 경로를 확인하여 zshrc에 넣어주시면 됩니다. <br><br>
 
 이렇게 하면 `cookie` 명령어 만으로 간단하게 스크립트를 실행시켜 보도록 하겠습니다. <br><br>
 
