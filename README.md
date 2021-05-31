@@ -119,7 +119,7 @@ ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-da
 ### ✔️How to Use
 
 ```zsh
-$> cd where-you-want
+$> cd "where-you-want"
 $> git clone https://github.com/LS-ELLO/cookie-cutter-dx-team.git
 $> cd cookie-cutter-dx-team
 $> cd mac
