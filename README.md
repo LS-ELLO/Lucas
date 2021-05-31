@@ -70,7 +70,7 @@ export AUTOENV_ENABLE_LEAVE='"enabled"'
 # .env.leave 파일
 echo "BYEBYE"
 {
-    source deactivate
+    deactivate
     echo "virtual env is successfully deactivated!"
 } ||
 {
