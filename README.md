@@ -16,7 +16,15 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 
 ## 목차
 * [Mac버전 CookieCutter (autoenv)](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#mac%EB%B2%84%EC%A0%84-cookiecutter-autoenv)
+    * [1.How to Install autoenv](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#1-how-to-install-autoenv)
+    * [2.폴더 진입 시, activate 구현하기](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#2%ED%8F%B4%EB%8D%94-%EC%A7%84%EC%9E%85-%EC%8B%9C-activate-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+    * [3.폴더 탈출 시, deactivate 구현하기](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#3%ED%8F%B4%EB%8D%94-%ED%83%88%EC%B6%9C-%EC%8B%9C-deactivate-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+    * [4.Alias 설정하기](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#4alias-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
+    * [5.How to Use](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#5how-to-use)
 * [Windows버전 CookieCutter (ps-autoenv)](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#windows%EB%B2%84%EC%A0%84-cookiecutter-ps-autoenv)
+    * [1.How to install ps-autoenv](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#1how-to-install-ps-autoenv)
+    * [2.Alias 설정하기 (git-bash)](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#2alias-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-git-bash)
+    * [3.How to Use](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#3how-to-use)
 
 <br>
 
