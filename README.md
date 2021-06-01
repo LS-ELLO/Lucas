@@ -2,8 +2,8 @@
 
 -----------------
 
-# cookie-cutter-dx-team
-_Last Updated: 2021-05-31_ [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLS-ELLO%2Fcookie-cutter-dx-team&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+# Lucas
+_Last Updated: 2021-05-31_ [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLS-ELLO%2FLucas&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <br>
 
@@ -15,24 +15,24 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=Windows&logoColor=white"/>
 
 ## 목차
-* [Mac버전 CookieCutter (autoenv)](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#mac%EB%B2%84%EC%A0%84-cookiecutter-autoenv)
-    * [1.How to Install autoenv](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#1-how-to-install-autoenv)
-    * [2.폴더 진입 시, activate 구현하기](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#2%ED%8F%B4%EB%8D%94-%EC%A7%84%EC%9E%85-%EC%8B%9C-activate-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
-    * [3.폴더 탈출 시, deactivate 구현하기](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#3%ED%8F%B4%EB%8D%94-%ED%83%88%EC%B6%9C-%EC%8B%9C-deactivate-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
-    * [4.Alias 설정하기](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#4alias-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
-    * [5.How to Use](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#5how-to-use)
-* [Windows버전 CookieCutter (ps-autoenv)](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#windows%EB%B2%84%EC%A0%84-cookiecutter-ps-autoenv)
-    * [1.How to install ps-autoenv](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#1how-to-install-ps-autoenv)
-    * [2.Alias 설정하기 (git-bash)](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#2alias-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-git-bash)
-    * [3.How to Use](https://github.com/LS-ELLO/cookie-cutter-dx-team/blob/main/README.md#3how-to-use)
+* [Mac버전 CookieCutter (autoenv)](https://github.com/LS-ELLO/Lucas/blob/main/README.md#mac%EB%B2%84%EC%A0%84-cookiecutter-autoenv)
+    * [1.How to Install autoenv](https://github.com/LS-ELLO/Lucas/blob/main/README.md#1-how-to-install-autoenv)
+    * [2.폴더 진입 시, activate 구현하기](https://github.com/LS-ELLO/Lucas/blob/main/README.md#2%ED%8F%B4%EB%8D%94-%EC%A7%84%EC%9E%85-%EC%8B%9C-activate-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+    * [3.폴더 탈출 시, deactivate 구현하기](https://github.com/LS-ELLO/Lucas/blob/main/README.md#3%ED%8F%B4%EB%8D%94-%ED%83%88%EC%B6%9C-%EC%8B%9C-deactivate-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+    * [4.Alias 설정하기](https://github.com/LS-ELLO/Lucas/blob/main/README.md#4alias-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
+    * [5.How to Use](https://github.com/LS-ELLO/Lucas/blob/main/README.md#5how-to-use)
+* [Windows버전 CookieCutter (ps-autoenv)](https://github.com/LS-ELLO/Lucas/blob/main/README.md#windows%EB%B2%84%EC%A0%84-cookiecutter-ps-autoenv)
+    * [1.How to install ps-autoenv](https://github.com/LS-ELLO/Lucas/blob/main/README.md#1how-to-install-ps-autoenv)
+    * [2.Alias 설정하기 (git-bash)](https://github.com/LS-ELLO/Lucas/blob/main/README.md#2alias-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-git-bash)
+    * [3.How to Use](https://github.com/LS-ELLO/Lucas/blob/main/README.md#3how-to-use)
 
 <br>
 
 ## Patch Note 📜
 - App폴더구조 추가 완료 (21/5/31)
 - src 하위폴더 이름 및 구조 변경 완료 (21/5/31)
-- [issue] [deactivate 명령어 오류 해결 (21/5/31)](https://github.com/LS-ELLO/cookie-cutter-dx-team/issues/3)
-- [issue] [command line alias 설정법 추가 (21/5/31)](https://github.com/LS-ELLO/cookie-cutter-dx-team/issues/6)
+- [issue] [deactivate 명령어 오류 해결 (21/5/31)](https://github.com/LS-ELLO/Lucas/issues/3)
+- [issue] [command line alias 설정법 추가 (21/5/31)](https://github.com/LS-ELLO/Lucas/issues/6)
 
 
 <br>
@@ -136,8 +136,8 @@ ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-da
 
 ```zsh
 $> cd "where-you-want"
-$> git clone https://github.com/LS-ELLO/cookie-cutter-dx-team.git
-$> cd cookie-cutter-dx-team
+$> git clone https://github.com/LS-ELLO/Lucas.git
+$> cd Lucas
 $> cd mac
 
 $> cookie [where-you-want] [your-project-name]
