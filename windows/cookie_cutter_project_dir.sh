@@ -44,14 +44,14 @@ node_modules/
 .DS_Store
 EOF
 
-cat > .env << EOF
+cat > .autoenv << EOF
 # .env 파일
 echo "HELLO autoenv"
 .dev-venv/Scripts/activate.ps1
 echo "virtual env is successfully activated!"
 EOF
 
-cat > .env.leave << EOF
+cat > .autoenv.leave << EOF
 # .env.leave 파일
 echo "BYEBYE"
 deactivate.ps1
