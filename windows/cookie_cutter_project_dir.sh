@@ -48,7 +48,7 @@ cat > .env << EOF
 # .env 파일
 echo "HELLO autoenv"
 {
-    source .dev-venv/Scripts/activate
+    call .dev-venv/Scripts/activate.ps1
     echo "virtual env is successfully activated!"
 } ||
 {
@@ -60,7 +60,7 @@ cat > .env.leave << EOF
 # .env.leave 파일
 echo "BYEBYE"
 {
-    deactivate
+    deactivate.ps1
     echo "virtual env is successfully deactivated!"
 } ||
 {
