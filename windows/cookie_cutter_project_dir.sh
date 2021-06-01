@@ -47,25 +47,15 @@ EOF
 cat > .env << EOF
 # .env 파일
 echo "HELLO autoenv"
-{
-    call .dev-venv/Scripts/activate.ps1
-    echo "virtual env is successfully activated!"
-} ||
-{
-    echo "[virtual env start] is failed!"
-}
+.dev-venv/Scripts/activate.ps1
+echo "virtual env is successfully activated!"
 EOF
 
 cat > .env.leave << EOF
 # .env.leave 파일
 echo "BYEBYE"
-{
-    deactivate.ps1
-    echo "virtual env is successfully deactivated!"
-} ||
-{
-    echo "[virtual env quit] is failed!"
-}
+deactivate.ps1
+echo "virtual env is successfully deactivated!"
 EOF
 
 cd ./data
