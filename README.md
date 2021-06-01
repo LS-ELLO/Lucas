@@ -56,12 +56,12 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 
 >⚠️mac버전만 소개합니다.
 
-### ✔How to Install autoenv
+### 1. How to Install autoenv
 ```bash
 $ git clone git://github.com/inishchith/autoenv.git ~/.autoenv
 ```
 
-#### 🔵폴더 진입 시, activate 구현하기
+### 2.폴더 진입 시, activate 구현하기
 
 ```bash
 $ echo 'source ~/.autoenv/activate.sh' >> ~/.zshrc
@@ -86,7 +86,7 @@ echo "HELLO autoenv"
 이 부분은 `.env`파일이 악의적으로 변경되었을때 사용자에게 알리기 위해서 있기 때문에 즐거운 마음으로 Y를 눌러줍시다. <br>
 이제 정상적으로 가상환경이 `activate`된 것을 확인할 수 있습니다. 
 
-#### 🔴폴더 탈출 시, deactivate 구현하기
+### 3.폴더 탈출 시, deactivate 구현하기
 
 ```bash
 $> vi ~/.zshrc
@@ -113,7 +113,7 @@ echo "BYEBYE"
 `.env.leave`파일 설정 후 해당 폴더에서 나가면<br>
 정상적으로 가상환경이 `deactivate` 되는 것을 확인할 수 있습니다.
 
-### ✔️Alias 설정하기
+### 4.Alias 설정하기
 ```sh
 echo 'alias cookie="bash [각자 컴퓨터의 상대경로/cookie_cutter_project_dir.sh]"' >> ~/.zshrc
 ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-data-science/mac/cookie_cutter_project_dir.sh"' >> ~/.zshrc
@@ -124,7 +124,7 @@ ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-da
 이렇게 하면 `cookie` 명령어 만으로 간단하게 스크립트를 실행시킬 수 있게 됩니다. <br>
 위와 같이 설정하면 `cookie [프로젝트 생성할 경로] [프로젝트 이름]` 명령어로 프로젝트를 생성할 수 있게 됩니다. <br>
 
-### ✔️How to Use
+### 5.How to Use
 
 ```zsh
 $> cd "where-you-want"
@@ -142,14 +142,14 @@ ex) $> cookie . test111
 >도움 주신 규본님 감사합니다. <br>
 [ps-autoenv](https://github.com/nickcox/ps-autoenv)를 사용합니다.
 
-### ✔How to install ps-autoenv
+### 1.How to install ps-autoenv
 <b>Powershell</b> 실행
 ```console
 PS> Install-Module ps-autoenv
 PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
 ```
 
-### ✔Alias 설정하기 (git-bash)
+### 2.Alias 설정하기 (git-bash)
 [참조](https://dev.to/mhjaafar/git-bash-on-windows-adding-a-permanent-alias-198g) <br>
 1. `C:/Program Files/Git/etc/profile.d/aliases.sh` 파일을 관리자 권한으로 Text Editor에 실행시킵니다. <br>
 2. 다음의 명령어를 추가합니다. <br>
@@ -170,7 +170,7 @@ PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
     ...
     ```
 
-### ✔How to Use
+### 3.How to Use
 <b>Git Bash</b> 실행
 ```console
 bash> cd "where-this-repo-downloaded"
