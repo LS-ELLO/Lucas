@@ -124,7 +124,7 @@ echo "BYEBYE"
 ### 4.Alias 설정하기
 ```sh
 echo 'alias cookie="bash [각자 컴퓨터의 상대경로/cookie_cutter_project_dir.sh]"' >> ~/.zshrc
-ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/cookiecutter-data-science/mac/cookie_cutter_project_dir.sh"' >> ~/.zshrc
+ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/Lucas/mac/cookie_cutter_project_dir.sh"' >> ~/.zshrc
 ```
 [맥 파일경로 확인법](https://yangfra.tistory.com/11)을 참고하여 <br>
 각자 mac폴더안의 cookie_cutter_project_dir.sh 파일의 경로를 확인하여 zshrc에 넣어주시면 됩니다. <br><br>
