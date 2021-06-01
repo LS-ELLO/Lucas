@@ -151,7 +151,7 @@ ex) $> cookie . test111
 [ps-autoenv](https://github.com/nickcox/ps-autoenv)를 사용합니다.
 
 ### 1.How to install ps-autoenv
-<b>Powershell</b> 실행
+<b>Powershell</b> 실행 (관리자 권한 실행)
 ```console
 PS> Install-Module ps-autoenv
 PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
