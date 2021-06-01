@@ -195,6 +195,8 @@ ex. PS> cd "C:\Users\ympark4\Documents\1bot"
 PS> press 'Y'
 ```
 
+##### 🚫PSSecurityException 오류 발생할때 
+https://extbrain.tistory.com/118 를 참조해서 해결주세요.
 
 <br><br>
 
