@@ -54,7 +54,7 @@ EOF
 cat > .autoenv.leave << EOF
 # .env.leave 파일
 echo "BYEBYE"
-.dev-venv/Scripts/deactivate.ps1
+deactivate
 echo "virtual env is successfully deactivated!"
 EOF
 
