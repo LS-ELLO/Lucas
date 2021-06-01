@@ -33,7 +33,7 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 - src 하위폴더 이름 및 구조 변경 완료 (21/5/31)
 - [issue] [deactivate 명령어 오류 해결 (21/5/31)](https://github.com/LS-ELLO/Lucas/issues/3)
 - [issue] [command line alias 설정법 추가 (21/5/31)](https://github.com/LS-ELLO/Lucas/issues/6)
-- 윈도우 명령어 오류 수정 작업 완료 (21/6/1)
+- 윈도우 명령어 오류 수정 작업(`activate`, `deactivate`) 완료 (21/6/1)
 
 
 <br>
