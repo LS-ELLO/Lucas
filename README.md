@@ -162,7 +162,7 @@ PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
 1. `C:/Program Files/Git/etc/profile.d/aliases.sh` 파일을 관리자 권한으로 Text Editor에 실행시킵니다. <br>
 2. 다음의 명령어를 추가합니다. <br>
     `alias cookie='bash cookie_cutter_project_dir.sh의 상대경로'` <br>
-    ex) `alias cookie='bash D:/cookie-cutter-dx-team/windows/cookie_cutter_project_dir.sh'`
+    ex) `alias cookie='bash D:/Lucas/windows/cookie_cutter_project_dir.sh'`
     
     ***(aliases.sh)***
     ```sh
