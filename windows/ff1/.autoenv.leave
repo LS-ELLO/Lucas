@@ -1,0 +1,4 @@
+# .env.leave 파일
+echo "BYEBYE"
+deactivate
+echo "virtual env is successfully deactivated!"
