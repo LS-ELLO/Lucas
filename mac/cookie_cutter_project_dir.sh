@@ -49,7 +49,6 @@ node_modules/
 
 # Data
 .data/
-
 EOF
 
 cat > .env << EOF

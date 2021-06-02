@@ -42,6 +42,13 @@ node_modules/
 
 # Mac OS-specific storage files
 .DS_Store
+
+# Virtual environment configurations
+.deploy-venv/
+.dev-venv/
+
+# Data
+.data/
 EOF
 
 cat > .autoenv << EOF
