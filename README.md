@@ -42,10 +42,10 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 
 > Contributors/People
 
-| ympark | gbhwang | ??? |
+| ympark | gbhwang | cbchun |
 | :---: | :---: | :---: |
-| <img src="https://avatars.githubusercontent.com/u/44596598?v=4" width="50%"></img> | <img src="https://avatars.githubusercontent.com/u/23609204?v=4" width="50%"></img>  | <img src="https://avatars2.githubusercontent.com/u/44596599" width="50%"></img>  |
-| ***https://github.com/pym7857*** | ***https://github.com/gbhwang*** | ***https://github.com/*** |   
+| <img src="https://avatars.githubusercontent.com/u/44596598?v=4" width="50%"></img> | <img src="https://avatars.githubusercontent.com/u/23609204?v=4" width="50%"></img>  | <img src="https://avatars.githubusercontent.com/u/17459103?v=4" width="50%"></img>  |
+| ***https://github.com/pym7857*** | ***https://github.com/gbhwang*** | ***https://github.com/bermmie1000*** |   
 
 - ***You can see team member and github profile***
 - ***You should probably find team member's lastest project***
