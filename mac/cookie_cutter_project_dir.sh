@@ -42,6 +42,16 @@ node_modules/
 
 # Mac OS-specific storage files
 .DS_Store
+
+# Virtual environment configurations
+.deploy-venv/
+.dev-venv/
+
+# Visual Studio Code configurations
+.vscode/
+
+# Data
+.data/
 EOF
 
 cat > .env << EOF
