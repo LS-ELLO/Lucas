@@ -51,7 +51,7 @@ node_modules/
 .vscode/
 
 # Data
-.data/
+data/
 EOF
 
 cat > .env << EOF
