@@ -47,6 +47,9 @@ node_modules/
 .deploy-venv/
 .dev-venv/
 
+# Visual Studio Code configurations
+.vscode/
+
 # Data
 .data/
 EOF
