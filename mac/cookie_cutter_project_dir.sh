@@ -46,8 +46,8 @@ node_modules/
 # Virtual environment configurations
 .deploy-venv/
 .dev-venv/
-.autoenv
-.autoenv.leave
+.env
+.env.leave
 
 # Visual Studio Code configurations
 .vscode/
