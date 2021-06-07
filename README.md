@@ -34,6 +34,7 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 - [issue] [deactivate 명령어 오류 해결 (21/5/31)](https://github.com/LS-ELLO/Lucas/issues/3)
 - [issue] [command line alias 설정법 추가 (21/5/31)](https://github.com/LS-ELLO/Lucas/issues/6)
 - 윈도우 명령어 오류 수정 작업(`activate`, `deactivate`) 완료 (21/6/1)
+- visualization 폴더 오타 수정 (21/6/7)
 
 
 <br>
