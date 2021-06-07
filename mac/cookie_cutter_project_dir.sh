@@ -142,7 +142,7 @@ for userpath in userpaths:  ## User 패스 등록하기
     else:
         sys.path.append(userpath)
 EOF
-mkdir dataread features models visualiztion
+mkdir dataread features models visualization
 cd ./dataread
 cat > __init__.py << EOF
 # 내부 폴더 *.py 파일을 다른 폴더에서 사용 가능하도록 해줌 
@@ -254,7 +254,7 @@ current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfra
 parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
 EOF
-cd ../visualiztion
+cd ../visualization
 cat > __init__.py << EOF
 # 내부 폴더 *.py 파일을 다른 폴더에서 사용 가능하도록 해줌 
 
