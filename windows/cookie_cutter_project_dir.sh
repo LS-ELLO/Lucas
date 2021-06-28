@@ -11,7 +11,7 @@ echo "[msg] **Don't overwrite files**"
 # ex) ./test.sh a1 a2 a3 a4 이면, $# 의 값은 4
 
 #echo $#
-[ $# -lt 1 ] && { echo "Usage: $0 [target directory] [project name]"; exit 1; }
+[ $# -lt 1 ] && { echo "Usage: $0 [target directory] [project name] [PYENV_VERSION]"; exit 1; }
 
 # the first argument passed into the script should be the dir
 # where you want the folder structure setup
@@ -21,6 +21,9 @@ echo "[msg] Setting up... folder structure in $1"
 if [ ! -d "$1" ]; then # -d FILE : FILE이 디렉토리 이면 참(true)
     mkdir $1
 fi # end if
+
+
+# 실행 명령어: cookie . my_project 3.8.1
 
 cd $1
 mkdir $2
@@ -306,12 +309,18 @@ cookie cutter를 통해서 프로젝트를 구성하는데 표준의 폴더 구�
 EOF
 echo "[msg] Top-level README.md created"
 
-# try ~ catch
-{
-    python -m venv .dev-venv
-    python -m venv .deploy-venv
-    echo "[msg] Virtual-env is successfully created"
-} ||
-{
-    echo "[msg] Cant' create virtual-env"
-}
+pyenv install $3
+pyenv global $3
+pyenv rehash
+pyenv local $3
+python -m venv .dev-venv
+
+# # try ~ catch
+# {
+#     python -m venv .dev-venv
+#     python -m venv .deploy-venv
+#     echo "[msg] Virtual-env is successfully created"
+# } ||
+# {
+#     echo "[msg] Cant' create virtual-env"
+# }

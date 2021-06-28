@@ -1,4 +1,0 @@
-# .env 파일
-echo "HELLO autoenv"
-.dev-venv/Scripts/activate.ps1
-echo "virtual env is successfully activated!"
