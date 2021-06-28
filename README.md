@@ -35,7 +35,7 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 - [issue] [command line alias 설정법 추가 (21/5/31)](https://github.com/LS-ELLO/Lucas/issues/6)
 - 윈도우 명령어 오류 수정 작업(`activate`, `deactivate`) 완료 (21/6/1)
 - visualization 폴더 오타 수정 (21/6/7)
-- Lucas에 대한 gitginore 파일 추가 (21/6/28) <br>
+- Lucas에 대한 `.gitginore` 파일 추가 (21/6/28) <br>
 👉<b>Lucas 수정 작업 시, 연습폴더 만들때는 무조건 `my_pjt`로 지어서 연습할 것</b>
 
 
