@@ -182,14 +182,17 @@ PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
     case "$TERM" in
     ...
     ```
+    
+### 3.`Pyenv-win` 설치하기
+[pyenv-win 설치법](https://github.com/chelseashin/TIL/blob/master/deploy/Python%20Windows%20Local%20Setting.md)
 
-### 3.How to Use
+### 4.How to Use
 <b>Git Bash</b> 실행
 ```console
 bash> cd "where-this-repo-downloaded"
 bash> cd windows
-bash> cookie [where-you-want] [your-project-name]
-ex) cookie . 1bot
+bash> cookie [where-you-want] [your-project-name] [py-version-you-want]
+ex) cookie . 1bot 3.8.1
 ```
 
 <b>Powershell</b> 실행
