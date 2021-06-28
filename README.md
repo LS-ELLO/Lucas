@@ -24,7 +24,8 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 * [Windows버전 CookieCutter (ps-autoenv)](https://github.com/LS-ELLO/Lucas/blob/main/README.md#windows%EB%B2%84%EC%A0%84-cookiecutter-ps-autoenv)
     * [1.How to install ps-autoenv](https://github.com/LS-ELLO/Lucas/blob/main/README.md#1how-to-install-ps-autoenv)
     * [2.Alias 설정하기 (git-bash)](https://github.com/LS-ELLO/Lucas/blob/main/README.md#2alias-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-git-bash)
-    * [3.How to Use](https://github.com/LS-ELLO/Lucas/blob/main/README.md#3how-to-use)
+    * [3.Pyenv-win 설치하기](https://github.com/LS-ELLO/Lucas#3pyenv-win-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
+    * [4.How to Use](https://github.com/LS-ELLO/Lucas/blob/main/README.md#4how-to-use)
 
 <br>
 
