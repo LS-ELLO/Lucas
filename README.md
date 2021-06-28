@@ -37,6 +37,7 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
 - visualization 폴더 오타 수정 (21/6/7)
 - Lucas에 대한 `.gitginore` 파일 추가 (21/6/28) <br>
 👉<b>Lucas 수정 작업 시, 연습폴더 만들때는 무조건 `my_pjt`로 지어서 연습할 것</b>
+- [pyenv-win을 이용한 사용자 입력 가상환경 기능 추가 (21/6/28)](https://github.com/LS-ELLO/Lucas/pull/17)
 
 
 <br>
