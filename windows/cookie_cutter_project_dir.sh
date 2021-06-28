@@ -310,7 +310,7 @@ EOF
 echo "[msg] Top-level README.md created"
 
 pyenv install $3
-pyenv global $3
+#pyenv global $3
 pyenv rehash
 pyenv local $3
 python -m venv .dev-venv
