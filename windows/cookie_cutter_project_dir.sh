@@ -314,6 +314,7 @@ pyenv install $3
 pyenv rehash
 pyenv local $3
 python -m venv .dev-venv
+python -m venv .deploy-venv
 
 # # try ~ catch
 # {
