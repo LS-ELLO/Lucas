@@ -20,7 +20,8 @@ coded by linux shell <img src="https://img.shields.io/badge/Linux-FCC624?style=f
     * [2.폴더 진입 시, activate 구현하기](https://github.com/LS-ELLO/Lucas/blob/main/README.md#2%ED%8F%B4%EB%8D%94-%EC%A7%84%EC%9E%85-%EC%8B%9C-activate-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
     * [3.폴더 탈출 시, deactivate 구현하기](https://github.com/LS-ELLO/Lucas/blob/main/README.md#3%ED%8F%B4%EB%8D%94-%ED%83%88%EC%B6%9C-%EC%8B%9C-deactivate-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
     * [4.Alias 설정하기](https://github.com/LS-ELLO/Lucas/blob/main/README.md#4alias-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
-    * [5.How to Use](https://github.com/LS-ELLO/Lucas/blob/main/README.md#5how-to-use)
+    * [5.pyenv 설치하기]()
+    * [6.How to Use](https://github.com/LS-ELLO/Lucas/blob/main/README.md#5how-to-use)
 * [Windows버전 CookieCutter (ps-autoenv)](https://github.com/LS-ELLO/Lucas/blob/main/README.md#windows%EB%B2%84%EC%A0%84-cookiecutter-ps-autoenv)
     * [1.How to install ps-autoenv](https://github.com/LS-ELLO/Lucas/blob/main/README.md#1how-to-install-ps-autoenv)
     * [2.Alias 설정하기 (git-bash)](https://github.com/LS-ELLO/Lucas/blob/main/README.md#2alias-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-git-bash)
@@ -138,7 +139,10 @@ ex) echo 'alias cookie="bash /Users/gbhwang/Desktop/Project/Test/Lucas/mac/cooki
 이렇게 하면 `cookie` 명령어 만으로 간단하게 스크립트를 실행시킬 수 있게 됩니다. <br>
 위와 같이 설정하면 `cookie [프로젝트 생성할 경로] [프로젝트 이름]` 명령어로 프로젝트를 생성할 수 있게 됩니다. <br>
 
-### 5.How to Use
+### 5.`Pyenv` 설치하기
+[pyenv 설치법](https://github.com/pyenv/pyenv#installation)
+
+### 6.How to Use
 
 ```zsh
 $> cd "where-you-want"
@@ -146,8 +150,8 @@ $> git clone https://github.com/LS-ELLO/Lucas.git
 $> cd Lucas
 $> cd mac
 
-$> cookie [where-you-want] [your-project-name]
-ex) $> cookie . test111
+$> cookie [where-you-want] [your-project-name] [py-version-you-want]
+ex) $> cookie . my_pjt 3.6.1
 ```
 
 <br><br>
@@ -193,14 +197,14 @@ PS> Add-Content $PROFILE @("`n", "import-module ps-autoenv")
 bash> cd "where-this-repo-downloaded"
 bash> cd windows
 bash> cookie [where-you-want] [your-project-name] [py-version-you-want]
-ex) cookie . 1bot 3.8.1
+ex) cookie . my_pjt 3.8.1
 ```
 
 <b>Powershell</b> 실행
 ```console
 PS> Import-Module ps-autoenv
 PS> cd "where-your-cookiecutter-project"
-ex. PS> cd "C:\Users\ympark4\Documents\1bot"
+ex. PS> cd "C:\Users\ympark4\Documents\my_pjt"
 PS> press 'Y'
 ```
 
